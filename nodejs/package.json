@@ -1,0 +1,17 @@
+{
+  "name": "waif",
+  "version": "0.1.0",
+  "description": "Finds open-access images to illustrate English Wikipedia articles with",
+  "repository": "https://github.com/gaurav/waif",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "monitor": "nodemon server.js",
+    "deploy": "gcloud preview app deploy app.yaml"
+  },
+  "author": "Gaurav Vaidya <gaurav@ggvaidya.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.0"
+  }
+}
